@@ -1,0 +1,51 @@
+@font-face{
+    font-family: Norse-Bold;
+    src: url('fonts/Norse-Bold.otf') format('opentype');
+}
+
+h1 {
+    font-family: 'Norse-Bold', sans-serif;
+    background-image: url(https://unsplash.com/photos/a-person-holding-a-nintendo-wii-game-controller-IJolVhJKk7c);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.main   {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left, .right {
+    display: flex;
+    justify-content: center;
+    width: 5vh;
+}
+
+.left   {
+    background-image: url(./images/samsung-memory-IJolVhJKk7c-unsplash.jpg);
+    width: 35vw;
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: white;
+    font-family: Norse-Bold, sans-serif;
+}
+.right  {
+    display: flex;
+    flex-direction: column;
+}
+
+.first{
+    height: 30vh;
+}
+
+.second{
+    height: 40vh;
+}
+
+.third{
+    height: 30vh;
+}
