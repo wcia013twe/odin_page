@@ -11,6 +11,7 @@ h1 {
 body {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 .main   {
     display: flex;
@@ -26,7 +27,7 @@ body {
 }
 
 .left   {
-    background-image: url(./images/samsung-memory-IJolVhJKk7c-unsplash.jpg);
+    background-image: url("images/tony-saiko.jpg");
     width: 35vw;
     background-repeat: no-repeat;
     background-size: auto;
@@ -35,17 +36,99 @@ body {
 }
 .right  {
     display: flex;
+
     flex-direction: column;
+    background-color: #fafafa;
+    width: 65vw;
 }
 
 .first{
-    height: 30vh;
+    height: 25vh;
+    display: flex-start;
+    justify-content: center;
+    margin-left:  5%;
+    margin-bottom: 5px;
 }
 
 .second{
-    height: 40vh;
+    height: 33vh;
+    background-color: white;
+    box-shadow: 5px 2px 5px gray;
+}
+
+.form-main-div  {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: left;
+    margin-left: 5%;
+    gap: 100px;
+}
+
+.form-divs {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.form-div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 300px;
+    border: 1px solid #E5E7EB;
+    height: 25px;
+    border-radius: 5px;
+}
+
+input:focus{
+    
+    outline: none;
+    border-color: blue;
+}
+
+input:invalid{
+    border-color: red;
+}
+
+label {
+    font-size: 12px;
+    color: #3b3b3c;
+}
+
+#error  {
+    color: red;
+    font-size: 10px;
+    margin: 1px;
 }
 
 .third{
-    height: 30vh;
+    height: 33vh;
+    margin-left: 5%;
+}
+
+#btn_green  {
+
+    margin-top: 3%;
+    background-color: #596D48;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 250px;
+    color: white;
+    font-size: small;
+}
+
+.hyperlink{
+
+    display: flex;
+;
+    margin-left: 5%;
+}
+
+a{
+    color: #596D48;
 }
